@@ -1,0 +1,3 @@
+向某文件中加入新内容：
+
+echo XXX >> file.txt

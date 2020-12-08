@@ -1,0 +1,11 @@
+Gitignore是一个文件，帮助同步git时，忽略掉某些类型的文件
+
+github中就有相关模板，地址  github.com/github/gitignore
+比如Java.gitignore, 
+
+*.class
+*.log
+
+
+
+帮助忽略掉所有的class和log文件，当同步project到repository时

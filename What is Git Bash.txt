@@ -1,0 +1,3 @@
+Git Bash is an application for Microsoft Windows environments which provides an emulation layer for a Git command line experience.
+
+Git Bash是一个软件，代替传统的command line的小窗口，专门用于git相关指令

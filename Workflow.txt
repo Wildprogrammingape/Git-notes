@@ -1,0 +1,5 @@
+Each commit contains a complete snapshot of our project, and we can quickly get back to 
+the previous stage.
+
+每次我们将project commit到 repository中，并备注作者日期等等，且很容易回溯到任意版本
+中间过程称之为 staging area

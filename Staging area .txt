@@ -1,0 +1,5 @@
+作为我们project和git repository的中间部分，方便review code提高容错率
+
+git add 用于staging area
+
+git commit 才是将内容同步到repository中
