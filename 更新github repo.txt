@@ -1,0 +1,11 @@
+git add .
+git commit -m "my changes" 
+git remote add origin https://github.com/Wildprogrammingape/React-Application-Burger-Builder.git
+git push -u origin master
+
+
+其中 git remote add是添加远程仓库， origin是https://github.com/Wildprogrammingape/React-Application-Burger-Builder.git  的别名
+
+
+
+git push -u origin master意思是  上传本地当前分支代码到master分支，其中master是github repo的主分支
