@@ -1,0 +1,24 @@
+git init			在本地 init 一个 repository
+
+git add <file>		将修改的代码放到staging area
+git rm --cached <file>	将代码从staging area移除
+
+git commit -m ""		将代码commit
+
+git log			查看所有commit记录
+git log --oneline		简洁的一行查看所有commit记录
+
+git checkout <log number>	查看某个log number的commit记录
+
+git revert <log number>	删除某个log number的commit
+
+git reset <log number> 	    撤销某个log number的commit，但此时该commit的修改还在工作区
+git reset <log number> --hard     回到某个log number的节点
+
+git branch <branch name>	添加新branch
+git branch -a		查看所有branch
+git checkout <branch name>	切换到某个branch
+
+git checkout -b <branch name> 添加新branch，并进入该branch(两步合一步)
+
+git merge <branch name>	将某个branch的代码merge到当前branch中(master)
