@@ -1,0 +1,32 @@
+首先将代码commit到本地local repo：
+
+git init
+git add .
+git commit -m ""
+
+
+然后将本地repo push到github的remote repo上：
+
+git push < url> <branch name>
+
+git remote add origin <url>  		 为了避免每次都要打<url>，可以给它取个别名，如 origin
+
+git push origin master     		 因此push本地repo到github的remote repo
+
+git pull origin master			 将github的remote repo代码同步到本地local repo
+
+
+
+开源相关操作：
+
+首先fork开源代码，然后clone我们fork的代码到本地
+
+然后将本地的代码push到自己fork的master分支中
+
+git add .
+git commit -m ""
+git push origin master
+
+最后在 github 中 new pull request，创建pull request，将fork的branch和开源的母branch对比即可
+
+这时，开源的所有者有权限去选择merge到自己的代码中，我们就成功贡献代码到开源框架啦~
