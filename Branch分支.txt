@@ -1,0 +1,4 @@
+一般master branch是代码的stable版本，是产品发行的版本
+
+需要测试new feature时，会添加新branch分支去测试，如成功就merge到master branch里
+
