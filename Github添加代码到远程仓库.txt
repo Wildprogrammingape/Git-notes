@@ -19,19 +19,27 @@ commit 代码后用  git log  可查看 commit 的记录
 git init
 git add .
 git commit -m ""
-git remote add origin + url (添加远程仓库)
+git remote add origin + url (添加远程仓库, origin是url的别名)
 git push origin master
 
 
 添加新branch:
 
-git branch master
-git checkout newmaster
+git branch <branch name>		添加新branch
+git checkout <branch name>		进入该branch			
+git branch -a		 	查看所有branch
 
-git branch -a (查看)
 
-添加新功能，首先cd到目标目录，然后git checkout到新branch，
+添加新功能，首先cd到目标目录，然后git checkout到新branch:
+
+git clone <url>   		  	拷贝github的repo到本地，此时自动有别名origin为url
+git clone -b <branch> <url>      	拷贝目标branch的代码
 
 git add .
 git commit -m ""
 git push origin newmaster
+
+
+同步github remote repo到本地local repo:
+
+git pull origin master
