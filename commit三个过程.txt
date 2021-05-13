@@ -1,0 +1,5 @@
+1. Modified: 在本地修改本地代码
+
+2. Staging: 通过 git add 添加代码到staging area
+
+3. Committed: 通过 git commit 将staging area的所有代码 commit
