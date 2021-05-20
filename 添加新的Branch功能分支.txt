@@ -1,0 +1,16 @@
+在master的git中运行：
+
+git branch test
+git checkout test
+git push origin test  
+
+
+cd到新建的本地文件夹：
+
+git clone -b <branch><url>
+
+完成添加新的分支，后面可用：
+
+git add .
+git commit -m ""
+git push origin test
