@@ -1,0 +1,10 @@
+同步远端代码到本地:
+
+git pull origin master
+
+如果本地有未保存的修改，会报错 Please commit your changes or stash them before you merge，此时最简单的方法就是直接reset到上一个commit然后再pull:
+
+
+git reset --hard
+
+git pull origin master
