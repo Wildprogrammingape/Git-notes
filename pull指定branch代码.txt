@@ -1,0 +1,18 @@
+1. git pull origin pre-stage
+
+将pre-stage代码pull到当前branch中
+
+2. 添加upstream后再git pull
+
+语法：
+git push --set-upstream <remote> <branch>
+
+例子:
+git branch --set-upstream-to origin/pre-stage stephen-new
+git pull
+
+
+
+查看当前branch的上游分支
+
+git branch -vv
